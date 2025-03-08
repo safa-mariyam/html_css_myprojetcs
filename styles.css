@@ -1,0 +1,230 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfbe8; /* Light yellow background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid purple;
+}
+
+.logo {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+.star {
+    color: red;
+    font-size: 30px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Main Content */
+.container {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Images */
+.img1 {
+    width: 250px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.img2 {
+    width: 150px;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.img3 {
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+/* Hero Section */
+.hero {
+    text-align: center;
+    background-color: #fdfbe8; /* Light Yellow Background */
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #8b0000; /* Dark Red */
+    margin-bottom: 20px;
+}
+
+.join-btn {
+    background-color: red;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.join-btn:hover {
+    background-color: darkred;
+}
+/* Services Section */
+.services {
+    text-align: center;
+    background-color: #fdfbe8; /* Light Yellow Background */
+    padding: 50px 20px;
+}
+
+.services h2 {
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    border: 2px solid red;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+}
+
+.service-box h3 {
+    color: red;
+    font-size: 22px;
+}
+
+.service-box hr {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid red;
+}
+
+.service-box p {
+    font-size: 18px;
+    color: #8b0000; /* Dark Red */
+}
+
+.service-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.service-btn:hover {
+    background-color: darkred;
+}
+/* Event Details Section */
+.event-details {
+    background-color: #fdfbe8; /* Light Yellow */
+    padding: 40px 0;
+    border-top: 5px solid purple; /* Purple top border */
+}
+
+.event-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.event-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.event-date {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+}
+
+.event-location {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: "Times New Roman", serif;
+}
+
+/* Register Now Button */
+.register-btn {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Times New Roman", serif;
+}
+
+.register-btn:hover {
+    background-color: darkred;
+}
+
+/* Event Image */
+.event-image img {
+    max-width: 300px;
+    height: auto;
+    border: 5px solid gold;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
